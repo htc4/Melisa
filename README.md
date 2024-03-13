@@ -1,6 +1,7 @@
-```
+
 # FruitJuice
 ## Structure
+```
 .
 ├── Components
 │   ├── css
