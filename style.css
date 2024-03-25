@@ -54,8 +54,7 @@
 }
 
 .image_5 {
-    width: 173px;
-    height: 189px;
+    width: 203px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -68,8 +67,7 @@
 }
 
 .image_6 {
-    width: 119px;
-    height: 137px;
+    width: 229px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -136,7 +134,26 @@
 .objects {
     display: flex;
     position: fixed;
-    height: 50px; /* Adjust height as needed */
-    width: 100%; /* Ensure full width */
-    z-index: 999; /* Ensure the navigation bar is above other content */
+    height: 50px;
+    width: 100%;
+    z-index: 999;
+    left: 90px;
 }
+
+@keyframes scale-up {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+    img:hover {
+        animation: scale-up 0.3s forwards;
+    }
