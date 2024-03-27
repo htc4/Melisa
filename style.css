@@ -1,0 +1,159 @@
+﻿body {
+    background: radial-gradient(circle, #FEB9CA, #FF3D6C);
+}
+
+.image_1 {
+    width: 100%;
+    height: 976px;
+    background: none;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.STRAWBERRY {
+    width: 97%;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 385px;
+    left: 20px;
+    font-family: Roboto;
+    font-size: 200px;
+    opacity: 1;
+    text-align: center;
+}
+
+.image_3 {
+    width: 312px;
+    height: 185px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 773px;
+    left: 992px;
+    transform: rotate(-26deg);
+    overflow: hidden;
+}
+
+.image_4 {
+    width: 312px;
+    height: 185px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 772px;
+    left: 20px;
+    transform: rotate(-1deg);
+    overflow: hidden;
+}
+
+.image_5 {
+    width: 203px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 204px;
+    left: 66px;
+    transform: rotate(-18deg);
+    overflow: hidden;
+}
+
+.image_6 {
+    width: 229px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 181px;
+    left: 961px;
+    overflow: hidden;
+}
+
+.image_7 {
+    width: 135px;
+    height: 112px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 87px;
+    left: 396px;
+    overflow: hidden;
+}
+
+.image_8 {
+    width: 135px;
+    height: 112px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 318px;
+    left: 1114px;
+    overflow: hidden;
+}
+
+.image_9 {
+    width: 135px;
+    height: 112px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 635px;
+    left: 423px;
+    overflow: hidden;
+}
+
+.bottle {
+    width: auto;
+    height: 597px;
+    background: url("../images/v31_51.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 164px;
+    left: 40%;
+    overflow: hidden;
+}
+
+.objects {
+    display: flex;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 999;
+    left: 90px;
+}
+
+@keyframes scale-up {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+    img:hover {
+        animation: scale-up 0.3s forwards;
+    }
